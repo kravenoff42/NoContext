@@ -36,6 +36,11 @@ body{
 	padding: 10px 15px;
 	transition: background 1s, color 1s;
 }
+.btn:visited {
+	background: #ddfdff;
+	outline: none;
+	color: #2df;
+}
 .btn:hover {
 	background: #2df;
 	color: #fff;
