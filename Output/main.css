@@ -27,7 +27,7 @@ body{
 #tweet{
   margin:10px;
 }
-.btn {
+.btn, .btn:visited {
 	background: #ddfdff;
 	border: none;
 	color: #2df;
@@ -36,12 +36,9 @@ body{
 	padding: 10px 15px;
 	transition: background 1s, color 1s;
 }
-.btn:visited {
-	background: #ddfdff;
-	outline: none;
-	color: #2df;
-}
-.btn:hover {
+
+.btn:hover, .btn:active {
 	background: #2df;
 	color: #fff;
+  border: none;
 }
